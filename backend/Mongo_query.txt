@@ -7,7 +7,7 @@ options:=>
 /i means case insensitive search
 /m 
 ^ => match start of string
-
+ 
 $ => match end of string
 
 /
