@@ -1,0 +1,24 @@
+******* Like query ***********
+
+{$or:[{title:{$regex:/trip/i}}]}
+
+options:=>
+
+/i means case insensitive search
+/m 
+^ => match start of string
+
+$ => match end of string
+
+/
+
+******* Like query ***********
+
+
+
+
+******* Like query ***********
+
+
+n
+******* Like query ***********

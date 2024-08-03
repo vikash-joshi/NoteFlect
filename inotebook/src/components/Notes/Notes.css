@@ -1,0 +1,196 @@
+.sticky-note {
+    position: relative;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.sticky-note:hover {
+    transform: scale(1.05);
+}
+
+.note-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.note-content {
+    font-size: 14px;
+}
+
+.card{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.note-width {
+    width: 100%;
+}
+
+.card-icon{
+    cursor: pointer;
+}
+.right-panel{
+    background:#cee7ff;
+    padding: 18px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.FormPanel{
+    background: aliceblue;
+}
+.formheader{
+    background: #0d6efd !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.noteactive
+{
+    background-color: #d0e7ff; /* Light blue background on hover */
+    color: #0056b3; /* Darker blue text on hover */
+}
+
+.cardheader{
+    background: white;color: #0d6efd;border: none !important;
+}
+
+.card-body{
+    padding:11px;
+}
+
+.card-text{
+    font-size: 11px;
+}
+
+.card-icon{
+    font-size: 20px;
+}
+
+.norecord_note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footers{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.card-footers  .card-footer-title{
+    font-size: 8px;
+    margin-right: 7px;
+    background: #767676ba;
+}
+
+.list-group-item:hover {
+    background-color: #d8e8f9; /* Light blue background on hover */
+    color: #0056b3; /* Darker blue text on hover */
+}
+
+
+ /* Skeleton loader styles */
+ .skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+
+.prevnext_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.prevnextbtn:hover{
+    background: white;  
+}
+.prevnextbtn{
+    height: 34px;
+    background: white;
+    padding: 7px;
+    text-align: justify;
+
+}
+
+.prevnext{
+    font-size: 15px;
+}
+.list-group-item{
+    cursor:pointer;
+}
+
+.Favorite{
+    color:gray;
+    transition: color 0.3s ease;
+}
+.Favorite:hover{
+    color: gold;
+}
+
+.card-skeleton {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    background-color: #fff;
+}
+
+.card-skeleton-body{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.skeleton-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skeleton-badge {
+    width: 60px;
+    height: 20px;
+}
+
+.skeleton-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.skeleton-title {
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.skeleton-text {
+    width: 100%;
+    height: 14px;
+    margin-bottom: 10px;
+}
+

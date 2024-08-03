@@ -1,0 +1,59 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Helvetica Now MT Text, Helvetica, Arial, sans-serif;
+
+}
+.bg-primary{
+  background-color: #0F62FE;
+}
+
+.text-primary{
+  color: #0F62FE;
+}
+
+.homecontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eyeicon{
+  cursor: pointer;
+  margin-left: -24px;
+  font-size: 19px;
+  color: #818488;
+}
+
+.navbar_responsive{
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+.passwords{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+  .resigters{
+    padding:10px;
+  }
+  .nav-item > .active :hover{
+    border-radius: 6px !important;
+    background: #0052c096 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 15px !important;
+  }
+  .w-50{
+    width: 18% !important;
+  }
+}
+
